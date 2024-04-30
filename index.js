@@ -59,7 +59,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/firsttestdata')
                 console.log(error)
             }
         }
-        // getdocument()
+        getdocument()
 
         // Update the data
         const updatedocument = async (_id) => {
