@@ -2,7 +2,8 @@ const express = require('express')
 const mongoose = require('mongoose')
 
 const app = express()
-const port = 200
+
+const port = process.env.PORT || 200
 
 require('./db/Config')
 const User = require('./db/User')
